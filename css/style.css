@@ -1,0 +1,44 @@
+
+
+.navbar {
+    text-align: center;
+    list-style-type: none;
+    }
+.title-banner {
+    color: #fff;
+}
+
+.date-panel {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+}
+.text-panel {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 16px;
+}
+.red-major {
+    color: red;
+    font-size: 18px;
+}
+/* Images */
+.img-responsive {
+    border-radius: 5px;
+}
+
+.port-image
+{
+    /* width: 70%; */
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+/* VIDEO */
+
+video {
+    max-width: 100%;
+    height: auto;
+  }
