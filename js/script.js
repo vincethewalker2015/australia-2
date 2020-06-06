@@ -29,23 +29,19 @@ $(this).addClass("active");
 
 // $(document).ready(function(){
 //     var $this = $(this);
-//     $('.gallery_product').mouseover(function(){
+//     $('.gallery_product').click(function(){
 //         $(this).css("cursor", "pointer");
-//         $(this).animate({width: "500px"}, '3s');
+//         $(this).animate({width: "400px"}, '3s');
+//         $(this).delay(5000);
+//         $('.gallery_product').click(function(){
+//             $(this).animate({width: "300px"}, 'slow');
+//         });
 //     });
-//     $('.gallery_product').mouseleave(function(){
-//         $(this).animate({width: "100px"}, 'slow');
-//     });
+    
 // });
 
 
-$(document).ready(function(){
-    var $this = $(this);
-    $(".img-responsive").click(function(){
-        $(this).animate({width: "300", height: "200"}, 'slow');
-        // $(this).hide('10s');
-    });
-  });
+
 
   
 
